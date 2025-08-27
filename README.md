@@ -39,18 +39,11 @@
   
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FAndyH0ng&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
-<img src="https://github-readme-stats.vercel.app/api?username=AndyH0ng&show_icons=true&theme=tokyonight" alt="Andy's GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api?username=AndyH0ng&show_icons=true&theme=dark" alt="Andy's GitHub Stats" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AndyH0ng&layout=compact&theme=tokyonight" alt="Top Languages" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AndyH0ng&layout=compact&theme=dark" alt="Top Languages" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=AndyH0ng&theme=tokyonight" alt="GitHub Streak" />
-
-</div>
-
-## 🏆 GitHub Trophies
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=AndyH0ng&theme=onedark&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=AndyH0ng&theme=dark" alt="GitHub Streak" />
 
 </div>
 
