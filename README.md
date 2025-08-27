@@ -43,8 +43,6 @@
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AndyH0ng&layout=compact&theme=dark" alt="Top Languages" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=AndyH0ng&theme=dark" alt="GitHub Streak" />
-
 </div>
 
 ## 📈 Activity Graph
