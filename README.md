@@ -53,8 +53,9 @@
   - 숭실대학교 모의투자대회 FLOW: Startup Bridge 운영 (50여 명 규모)
   - 글로벌미디어학부 알고리즘 대회 Algorithm Party 기획 및 운영
 - 학부 "C 프로그래밍" C언어 멘토링 멘토
-- 코딩 입시 학원 "COMSEBA" 파트 타임 강사
-- 국제 해커톤 "JUNCTION ASIA 2025" 진출
+- 코딩 입시 학원 COMSEBA 파트 타임 강사
+- 국제 해커톤 JUNCTION ASIA 2025 진출
+- 대학생 사이드 프로젝트 동아리 UMC 9기 Web 수료
 
 ## 🏆 수상
 
