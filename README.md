@@ -50,8 +50,8 @@
 ### 2025
 - 글로벌미디어학부 개발 학술 소모임 GAMEWORKS (110여 명 규모) TECH 부회장
   - 소모임 연합 아이디어톤 WAVE 운영 (40여 명 규모)
-  - 숭실대학교 모의투자대회 FLOW: Startup Bridge 운영 (50여 명 규모)
-  - 글로벌미디어학부 알고리즘 대회 Algorithm Party 기획 및 운영
+  - 숭실대학교 모의투자대회 FLOW: Startup Bridge 운영 및 투자 시스템 개발 (50여 명 규모)
+  - 글로벌미디어학부 알고리즘 대회 Algorithm Party 총괄 및 운영
 - 학부 "C 프로그래밍" C언어 멘토링 멘토
 - 코딩 입시 학원 COMSEBA 파트 타임 강사
 - 국제 해커톤 JUNCTION ASIA 2025 진출
