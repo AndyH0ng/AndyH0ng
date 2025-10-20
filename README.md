@@ -55,7 +55,7 @@ I'm a developer who:
   - Developed Discord bot for club schedule management
   - Developed weighted scoring system for Baekjoon algorithm rankings
   - Developed OpenIR mock investment platform
-- Mentoring "C Programming" students
+- Mentored "C Programming" undergraduate study group
 - Part-time instructor at COMSEBA Coding Academy
 - Selected for **JUNCTION ASIA 2025** international hackathon
 - UMC 9th Gen Web Track — Side Project Club
