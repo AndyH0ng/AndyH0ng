@@ -1,11 +1,11 @@
 ## Hello, I'm Andy Hong 👋
-I aspire to be a developer who:
+I'm a developer who:
 
-✨ Selects the **most suitable technology for each project** without being bound to specific tools.  
-✨ Pursues **effective and practical solutions** over flashy technologies.  
-✨ Creates **better outcomes together with the team**, not alone.  
+✨ Chooses the right tool for the job rather than sticking to familiar ones  
+✨ Values practical, effective solutions over flashy tech stacks  
+✨ Believes the best work happens in collaboration, not isolation
 
-🌏 I have experience in Korean localization for various projects. Feel free to reach out if your app needs some!
+🌏 Experienced in Korean localization—reach out if your project needs it!
 
 ## 🛠️ Tech Stack
 ### Programming Languages
@@ -43,23 +43,25 @@ I aspire to be a developer who:
 [![Andy's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=AndyH0ng&theme=react-dark)](https://github.com/ashutosh00710/github-readme-activity-graph)
 </div>
 
-## 🎯 Activities
+## 🎯 What I'm Up To
+
 ### 2024
-- Mentor for "C++ for A++" undergraduate study group
+- Mentored "C++ for A++" undergraduate study group
 
 ### 2025
-- Vice President of TECH, GAMEWORKS (Development academic club with 110+ members, School of Global Media)
-  - Organized WAVE Ideathon (40+ participants)
-  - Organized FLOW: Startup Bridge Mock Investment Competition at Soongsil University (50+ participants)
-  - Developed Discord bot for managing club schedules
-  - Developed Discord bot that calculates weighted scores based on Baekjoon tier rankings
-  - Developed OpenIR mock investment system
-- Mentor for "C Programming" undergraduate mentoring program
-- Part-time Instructor at COMSEBA Coding Academy
-- Selected for JUNCTION ASIA 2025 International Hackathon
-- Completed UMC 9th Gen Web Track (Side Project Club)
+- **Tech VP at GAMEWORKS** — Development club with 110+ members at IT Department
+  - Organized "WAVE" Ideathon (40+ participants)
+  - Led "FLOW: Startup Bridge" investment competition at Soongsil University (50+ participants)
+  - Developed Discord bot for club schedule management
+  - Developed weighted scoring system for Baekjoon algorithm rankings
+  - Developed OpenIR mock investment platform
+- Mentoring "C Programming" students
+- Part-time instructor at COMSEBA Coding Academy
+- Selected for **JUNCTION ASIA 2025** international hackathon
+- UMC 9th Gen Web Track — Side Project Club
 
 ## 🏆 Awards
+
 ### 2024
-- Excellence Award at WISH Hackathon (Inter-club hackathon)
-- Encouragement Award at 2nd Soongsil University IT Project Competition
+- **Excellence Award** — "WISH" Inter-club Hackathon
+- **Encouragement Award** — 2nd Soongsil University "IT Project" Competition
