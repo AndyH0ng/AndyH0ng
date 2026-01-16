@@ -32,36 +32,8 @@ I'm a developer who:
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
 </p>
 
-## 📊 Stats
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=AndyH0ng&show_icons=true&theme=dark" alt="Andy's GitHub Stats" />
-</div>
-
 ## 📈 Activity Graph
 <div align="center">
   
 [![Andy's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=AndyH0ng&theme=react-dark)](https://github.com/ashutosh00710/github-readme-activity-graph)
 </div>
-
-## 🎯 What I'm Up To
-
-### 2024
-- Mentored "C++ for A++" undergraduate study group
-
-### 2025
-- **Tech VP at GAMEWORKS** — Development club with 110+ members at IT Department
-  - Organized "WAVE" Ideathon (40+ participants)
-  - Led "FLOW: Startup Bridge" investment competition at Soongsil University (50+ participants)
-  - Developed Discord bot for club schedule management
-  - Developed weighted scoring system for Baekjoon algorithm rankings
-  - Developed OpenIR mock investment platform
-- Mentored "C Programming" undergraduate study group
-- Part-time instructor at COMSEBA Coding Academy
-- Selected for **JUNCTION ASIA 2025** international hackathon
-- UMC 9th Gen Web Track — Side Project Club
-
-## 🏆 Awards
-
-### 2024
-- **Excellence Award** — "WISH" Inter-club Hackathon
-- **Encouragement Award** — 2nd Soongsil University "IT Project" Competition
