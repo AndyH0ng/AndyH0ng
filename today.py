@@ -10,8 +10,8 @@ import hashlib
 # Account permissions: read:Followers, read:Starring, read:Watching
 # Repository permissions: read:Commit statuses, read:Contents, read:Issues, read:Metadata, read:Pull Requests
 # Issues and pull requests permissions not needed at the moment, but may be used in the future
-HEADERS = {'authorization': 'token '+ os.environ['ACCESS_TOKEN']}
-USER_NAME = os.environ['USER_NAME'] # 'AndyH0ng'
+HEADERS = {'authorization': 'token '+ os.environ['ACCESS_TOKEN'].strip()} # strip stray spaces/newlines from the pasted secret
+USER_NAME = os.environ['USER_NAME'].strip() # 'AndyH0ng'
 QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0}
 
 
@@ -47,6 +47,8 @@ def simple_request(func_name, query, variables):
     request = requests.post('https://api.github.com/graphql', json={'query': query, 'variables':variables}, headers=HEADERS)
     if request.status_code == 200:
         return request
+    if request.status_code == 401:
+        raise SystemExit('401 Bad credentials: ACCESS_TOKEN secret is invalid, expired, or has extra characters. Regenerate the token and re-save the secret.')
     raise Exception(func_name, ' has failed with a', request.status_code, request.text, QUERY_COUNT)
 
 
