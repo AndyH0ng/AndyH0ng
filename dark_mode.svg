@@ -8,48 +8,48 @@ font-display: swap;
 -webkit-size-adjust: 109%;
 size-adjust: 109%;
 }
-.key {fill: #ffa657;}
-.value {fill: #a5d6ff;}
-.addColor {fill: #3fb950;}
-.delColor {fill: #f85149;}
-.cc {fill: #616e7f;}
+.key {fill: #ff6ac1;}
+.value {fill: #57c7ff;}
+.addColor {fill: #5af78e;}
+.delColor {fill: #ff5c57;}
+.cc {fill: #686868;}
 text, tspan {white-space: pre;}
 </style>
-<rect width="985px" height="440px" fill="#161b22" rx="15"/>
+<rect width="985px" height="440px" fill="#1e1f29" rx="15"/>
 
 <text font-size="11px" class="ascii">
-<tspan x="12" y="48">                         <tspan fill="#3fa35f">&amp;&amp;&amp;&amp;                          </tspan></tspan>
-<tspan x="12" y="61">                        <tspan fill="#3fa35f">&amp;&amp;&amp;&amp;&amp;&amp;                         </tspan></tspan>
-<tspan x="12" y="74">                    <tspan fill="#3fa35f">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;                    </tspan></tspan>
-<tspan x="12" y="87">                 <tspan fill="#3fa35f">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;                  </tspan></tspan>
-<tspan x="12" y="100">            <tspan fill="#6e7681">@@@@@@</tspan><tspan fill="#3fa35f">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan><tspan fill="#6e7681">@@@@@             </tspan></tspan>
-<tspan x="12" y="113">         <tspan fill="#6e7681">@@@@@</tspan><tspan fill="#CB2C31">%%%%%</tspan><tspan fill="#3fa35f">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan><tspan fill="#CB2C31">%%%%%</tspan><tspan fill="#6e7681">@@@@@          </tspan></tspan>
-<tspan x="12" y="126">       <tspan fill="#6e7681">@@@</tspan><tspan fill="#CB2C31">%%%%%%%%%%%</tspan><tspan fill="#3fa35f">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan><tspan fill="#CB2C31">%%%%%%%%%%%</tspan><tspan fill="#6e7681">@@@        </tspan></tspan>
-<tspan x="12" y="139">     <tspan fill="#6e7681">@@@</tspan><tspan fill="#CB2C31">%%%%%%%%%%%%%</tspan><tspan fill="#3fa35f">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan><tspan fill="#CB2C31">%%%%%%%%%%%%</tspan><tspan fill="#6e7681">@@@      </tspan></tspan>
-<tspan x="12" y="152">    <tspan fill="#6e7681">@@@</tspan><tspan fill="#CB2C31">%%%%%%%%%%%%%</tspan><tspan fill="#3fa35f">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan><tspan fill="#CB2C31">%%%%%%%%%%%%%</tspan><tspan fill="#6e7681">@@@     </tspan></tspan>
-<tspan x="12" y="165">   <tspan fill="#6e7681">@@</tspan><tspan fill="#CB2C31">%%%%%%%%%%%%%%%%</tspan><tspan fill="#3fa35f">&amp;&amp;&amp;&amp;</tspan><tspan fill="#CB2C31">%%%%</tspan><tspan fill="#3fa35f">&amp;&amp;&amp;&amp;</tspan><tspan fill="#CB2C31">%%%%%%%%%%%%%%%%</tspan><tspan fill="#6e7681">@@    </tspan></tspan>
-<tspan x="12" y="178">  <tspan fill="#6e7681">@@</tspan><tspan fill="#CB2C31">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan fill="#6e7681">@@   </tspan></tspan>
-<tspan x="12" y="191"> <tspan fill="#6e7681">@@@</tspan><tspan fill="#CB2C31">%%%%%%%%%%%%</tspan><tspan fill="#6e7681">@@@</tspan><tspan fill="#CB2C31">%%%%%%%%%%%%%%%%</tspan><tspan fill="#6e7681">@@@</tspan><tspan fill="#CB2C31">%%%%%%%%%%%%</tspan><tspan fill="#6e7681">@@@  </tspan></tspan>
-<tspan x="12" y="204"> <tspan fill="#6e7681">@@</tspan><tspan fill="#CB2C31">%%%%%%%%%%%%</tspan><tspan fill="#6e7681">@@@@@@@</tspan><tspan fill="#CB2C31">%%%%%%%%%%</tspan><tspan fill="#6e7681">@@@@@@@</tspan><tspan fill="#CB2C31">%%%%%%%%%%%%</tspan><tspan fill="#6e7681">@@  </tspan></tspan>
-<tspan x="12" y="217"><tspan fill="#6e7681">@@@</tspan><tspan fill="#CB2C31">%%%%%%%%%%%%%%%</tspan><tspan fill="#6e7681">@@@@@@</tspan><tspan fill="#CB2C31">%%%%%%</tspan><tspan fill="#6e7681">@@@@@@</tspan><tspan fill="#CB2C31">%%%%%%%%%%%%%%%</tspan><tspan fill="#6e7681">@@@ </tspan></tspan>
-<tspan x="12" y="230"><tspan fill="#6e7681">@@</tspan><tspan fill="#CB2C31">%%%%%%%%%%%%%%%%%%%%</tspan><tspan fill="#6e7681">@@</tspan><tspan fill="#CB2C31">%%%%%%</tspan><tspan fill="#6e7681">@@</tspan><tspan fill="#CB2C31">%%%%%%%%%%%%%%%%%%%%</tspan><tspan fill="#6e7681">@@ </tspan></tspan>
-<tspan x="12" y="243"><tspan fill="#6e7681">@@</tspan><tspan fill="#CB2C31">%%%%%%%%%%%%%%</tspan><tspan fill="#f0f6fc">oooo</tspan><tspan fill="#CB2C31">%%%%%%%%%%%%%</tspan><tspan fill="#f0f6fc">ooooo</tspan><tspan fill="#CB2C31">%%%%%%%%%%%%%%</tspan><tspan fill="#6e7681">@@ </tspan></tspan>
-<tspan x="12" y="256"><tspan fill="#6e7681">@@</tspan><tspan fill="#CB2C31">%%%%%%%%%%%</tspan><tspan fill="#f0f6fc">oooooo</tspan><tspan fill="#6e7681">@</tspan><tspan fill="#f0f6fc">ooo</tspan><tspan fill="#CB2C31">%%%%%%%%</tspan><tspan fill="#f0f6fc">ooo</tspan><tspan fill="#6e7681">@</tspan><tspan fill="#f0f6fc">ooooo</tspan><tspan fill="#CB2C31">%%%%%%%%%%%%</tspan><tspan fill="#6e7681">@@ </tspan></tspan>
-<tspan x="12" y="269"><tspan fill="#6e7681">@@</tspan><tspan fill="#CB2C31">%%%%%%%%%%</tspan><tspan fill="#f0f6fc">oooo</tspan><tspan fill="#6e7681">@@@@@@</tspan><tspan fill="#f0f6fc">oo</tspan><tspan fill="#CB2C31">%%%%%%</tspan><tspan fill="#f0f6fc">o</tspan><tspan fill="#6e7681">@@@@@@</tspan><tspan fill="#f0f6fc">oooo</tspan><tspan fill="#CB2C31">%%%%%%%%%%%</tspan><tspan fill="#6e7681">@@ </tspan></tspan>
-<tspan x="12" y="282"><tspan fill="#6e7681">@@</tspan><tspan fill="#CB2C31">%%%%%%%%%%</tspan><tspan fill="#f0f6fc">oooo</tspan><tspan fill="#6e7681">@@@@@@@</tspan><tspan fill="#f0f6fc">o</tspan><tspan fill="#CB2C31">%%%%%</tspan><tspan fill="#f0f6fc">oo</tspan><tspan fill="#6e7681">@@@@@@@</tspan><tspan fill="#f0f6fc">ooo</tspan><tspan fill="#CB2C31">%%%%%%%%%%%</tspan><tspan fill="#6e7681">@@ </tspan></tspan>
-<tspan x="12" y="295"><tspan fill="#6e7681">@@@</tspan><tspan fill="#CB2C31">%%%%%%%%%</tspan><tspan fill="#f0f6fc">oooo</tspan><tspan fill="#6e7681">@@@@@@</tspan><tspan fill="#f0f6fc">oo</tspan><tspan fill="#CB2C31">%%%%%%</tspan><tspan fill="#f0f6fc">o</tspan><tspan fill="#6e7681">@@@@@@</tspan><tspan fill="#f0f6fc">oooo</tspan><tspan fill="#CB2C31">%%%%%%%%%%</tspan><tspan fill="#6e7681">@@@ </tspan></tspan>
-<tspan x="12" y="308"> <tspan fill="#6e7681">@@</tspan><tspan fill="#CB2C31">%%%%%%%%%%</tspan><tspan fill="#f0f6fc">oooooooooo</tspan><tspan fill="#CB2C31">%%%%%%%%</tspan><tspan fill="#f0f6fc">ooooooooo</tspan><tspan fill="#CB2C31">%%%%%%%%%%%</tspan><tspan fill="#6e7681">@@  </tspan></tspan>
-<tspan x="12" y="321"> <tspan fill="#6e7681">@@</tspan><tspan fill="#CB2C31">%%%%%%%%%%%%%</tspan><tspan fill="#f0f6fc">oooo</tspan><tspan fill="#CB2C31">%%%%%%%%%%%%%</tspan><tspan fill="#f0f6fc">oooo</tspan><tspan fill="#CB2C31">%%%%%%%%%%%%%%</tspan><tspan fill="#6e7681">@@  </tspan></tspan>
-<tspan x="12" y="334">  <tspan fill="#6e7681">@@</tspan><tspan fill="#CB2C31">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan fill="#6e7681">@@   </tspan></tspan>
-<tspan x="12" y="347">   <tspan fill="#6e7681">@@</tspan><tspan fill="#CB2C31">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan fill="#6e7681">@@    </tspan></tspan>
-<tspan x="12" y="360">    <tspan fill="#6e7681">@@@</tspan><tspan fill="#CB2C31">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan fill="#6e7681">@@@     </tspan></tspan>
-<tspan x="12" y="373">     <tspan fill="#6e7681">@@@@</tspan><tspan fill="#CB2C31">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan fill="#6e7681">@@@@      </tspan></tspan>
-<tspan x="12" y="386">        <tspan fill="#6e7681">@@@@@</tspan><tspan fill="#CB2C31">%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan fill="#6e7681">@@@@@         </tspan></tspan>
-<tspan x="12" y="399">           <tspan fill="#6e7681">@@@@@@@@@@</tspan><tspan fill="#CB2C31">%%%%%%%%%%%%</tspan><tspan fill="#6e7681">@@@@@@@@@@            </tspan></tspan>
-<tspan x="12" y="412">                  <tspan fill="#6e7681">@@@@@@</tspan><tspan fill="#CB2C31">%%%%%%</tspan><tspan fill="#6e7681">@@@@@@                   </tspan></tspan>
-<tspan x="12" y="425">                      <tspan fill="#6e7681">@@@@@@@@@@                       </tspan></tspan>
+<tspan x="12" y="48">                         <tspan fill="#5af78e">&amp;&amp;&amp;&amp;                          </tspan></tspan>
+<tspan x="12" y="61">                        <tspan fill="#5af78e">&amp;&amp;&amp;&amp;&amp;&amp;                         </tspan></tspan>
+<tspan x="12" y="74">                    <tspan fill="#5af78e">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;                    </tspan></tspan>
+<tspan x="12" y="87">                 <tspan fill="#5af78e">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;                  </tspan></tspan>
+<tspan x="12" y="100">            <tspan fill="#686868">@@@@@@</tspan><tspan fill="#5af78e">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan><tspan fill="#686868">@@@@@             </tspan></tspan>
+<tspan x="12" y="113">         <tspan fill="#686868">@@@@@</tspan><tspan fill="#ff5c57">%%%%%</tspan><tspan fill="#5af78e">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan><tspan fill="#ff5c57">%%%%%</tspan><tspan fill="#686868">@@@@@          </tspan></tspan>
+<tspan x="12" y="126">       <tspan fill="#686868">@@@</tspan><tspan fill="#ff5c57">%%%%%%%%%%%</tspan><tspan fill="#5af78e">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan><tspan fill="#ff5c57">%%%%%%%%%%%</tspan><tspan fill="#686868">@@@        </tspan></tspan>
+<tspan x="12" y="139">     <tspan fill="#686868">@@@</tspan><tspan fill="#ff5c57">%%%%%%%%%%%%%</tspan><tspan fill="#5af78e">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan><tspan fill="#ff5c57">%%%%%%%%%%%%</tspan><tspan fill="#686868">@@@      </tspan></tspan>
+<tspan x="12" y="152">    <tspan fill="#686868">@@@</tspan><tspan fill="#ff5c57">%%%%%%%%%%%%%</tspan><tspan fill="#5af78e">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</tspan><tspan fill="#ff5c57">%%%%%%%%%%%%%</tspan><tspan fill="#686868">@@@     </tspan></tspan>
+<tspan x="12" y="165">   <tspan fill="#686868">@@</tspan><tspan fill="#ff5c57">%%%%%%%%%%%%%%%%</tspan><tspan fill="#5af78e">&amp;&amp;&amp;&amp;</tspan><tspan fill="#ff5c57">%%%%</tspan><tspan fill="#5af78e">&amp;&amp;&amp;&amp;</tspan><tspan fill="#ff5c57">%%%%%%%%%%%%%%%%</tspan><tspan fill="#686868">@@    </tspan></tspan>
+<tspan x="12" y="178">  <tspan fill="#686868">@@</tspan><tspan fill="#ff5c57">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan fill="#686868">@@   </tspan></tspan>
+<tspan x="12" y="191"> <tspan fill="#686868">@@@</tspan><tspan fill="#ff5c57">%%%%%%%%%%%%</tspan><tspan fill="#686868">@@@</tspan><tspan fill="#ff5c57">%%%%%%%%%%%%%%%%</tspan><tspan fill="#686868">@@@</tspan><tspan fill="#ff5c57">%%%%%%%%%%%%</tspan><tspan fill="#686868">@@@  </tspan></tspan>
+<tspan x="12" y="204"> <tspan fill="#686868">@@</tspan><tspan fill="#ff5c57">%%%%%%%%%%%%</tspan><tspan fill="#686868">@@@@@@@</tspan><tspan fill="#ff5c57">%%%%%%%%%%</tspan><tspan fill="#686868">@@@@@@@</tspan><tspan fill="#ff5c57">%%%%%%%%%%%%</tspan><tspan fill="#686868">@@  </tspan></tspan>
+<tspan x="12" y="217"><tspan fill="#686868">@@@</tspan><tspan fill="#ff5c57">%%%%%%%%%%%%%%%</tspan><tspan fill="#686868">@@@@@@</tspan><tspan fill="#ff5c57">%%%%%%</tspan><tspan fill="#686868">@@@@@@</tspan><tspan fill="#ff5c57">%%%%%%%%%%%%%%%</tspan><tspan fill="#686868">@@@ </tspan></tspan>
+<tspan x="12" y="230"><tspan fill="#686868">@@</tspan><tspan fill="#ff5c57">%%%%%%%%%%%%%%%%%%%%</tspan><tspan fill="#686868">@@</tspan><tspan fill="#ff5c57">%%%%%%</tspan><tspan fill="#686868">@@</tspan><tspan fill="#ff5c57">%%%%%%%%%%%%%%%%%%%%</tspan><tspan fill="#686868">@@ </tspan></tspan>
+<tspan x="12" y="243"><tspan fill="#686868">@@</tspan><tspan fill="#ff5c57">%%%%%%%%%%%%%%</tspan><tspan fill="#f1f1f0">oooo</tspan><tspan fill="#ff5c57">%%%%%%%%%%%%%</tspan><tspan fill="#f1f1f0">ooooo</tspan><tspan fill="#ff5c57">%%%%%%%%%%%%%%</tspan><tspan fill="#686868">@@ </tspan></tspan>
+<tspan x="12" y="256"><tspan fill="#686868">@@</tspan><tspan fill="#ff5c57">%%%%%%%%%%%</tspan><tspan fill="#f1f1f0">oooooo</tspan><tspan fill="#686868">@</tspan><tspan fill="#f1f1f0">ooo</tspan><tspan fill="#ff5c57">%%%%%%%%</tspan><tspan fill="#f1f1f0">ooo</tspan><tspan fill="#686868">@</tspan><tspan fill="#f1f1f0">ooooo</tspan><tspan fill="#ff5c57">%%%%%%%%%%%%</tspan><tspan fill="#686868">@@ </tspan></tspan>
+<tspan x="12" y="269"><tspan fill="#686868">@@</tspan><tspan fill="#ff5c57">%%%%%%%%%%</tspan><tspan fill="#f1f1f0">oooo</tspan><tspan fill="#686868">@@@@@@</tspan><tspan fill="#f1f1f0">oo</tspan><tspan fill="#ff5c57">%%%%%%</tspan><tspan fill="#f1f1f0">o</tspan><tspan fill="#686868">@@@@@@</tspan><tspan fill="#f1f1f0">oooo</tspan><tspan fill="#ff5c57">%%%%%%%%%%%</tspan><tspan fill="#686868">@@ </tspan></tspan>
+<tspan x="12" y="282"><tspan fill="#686868">@@</tspan><tspan fill="#ff5c57">%%%%%%%%%%</tspan><tspan fill="#f1f1f0">oooo</tspan><tspan fill="#686868">@@@@@@@</tspan><tspan fill="#f1f1f0">o</tspan><tspan fill="#ff5c57">%%%%%</tspan><tspan fill="#f1f1f0">oo</tspan><tspan fill="#686868">@@@@@@@</tspan><tspan fill="#f1f1f0">ooo</tspan><tspan fill="#ff5c57">%%%%%%%%%%%</tspan><tspan fill="#686868">@@ </tspan></tspan>
+<tspan x="12" y="295"><tspan fill="#686868">@@@</tspan><tspan fill="#ff5c57">%%%%%%%%%</tspan><tspan fill="#f1f1f0">oooo</tspan><tspan fill="#686868">@@@@@@</tspan><tspan fill="#f1f1f0">oo</tspan><tspan fill="#ff5c57">%%%%%%</tspan><tspan fill="#f1f1f0">o</tspan><tspan fill="#686868">@@@@@@</tspan><tspan fill="#f1f1f0">oooo</tspan><tspan fill="#ff5c57">%%%%%%%%%%</tspan><tspan fill="#686868">@@@ </tspan></tspan>
+<tspan x="12" y="308"> <tspan fill="#686868">@@</tspan><tspan fill="#ff5c57">%%%%%%%%%%</tspan><tspan fill="#f1f1f0">oooooooooo</tspan><tspan fill="#ff5c57">%%%%%%%%</tspan><tspan fill="#f1f1f0">ooooooooo</tspan><tspan fill="#ff5c57">%%%%%%%%%%%</tspan><tspan fill="#686868">@@  </tspan></tspan>
+<tspan x="12" y="321"> <tspan fill="#686868">@@</tspan><tspan fill="#ff5c57">%%%%%%%%%%%%%</tspan><tspan fill="#f1f1f0">oooo</tspan><tspan fill="#ff5c57">%%%%%%%%%%%%%</tspan><tspan fill="#f1f1f0">oooo</tspan><tspan fill="#ff5c57">%%%%%%%%%%%%%%</tspan><tspan fill="#686868">@@  </tspan></tspan>
+<tspan x="12" y="334">  <tspan fill="#686868">@@</tspan><tspan fill="#ff5c57">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan fill="#686868">@@   </tspan></tspan>
+<tspan x="12" y="347">   <tspan fill="#686868">@@</tspan><tspan fill="#ff5c57">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan fill="#686868">@@    </tspan></tspan>
+<tspan x="12" y="360">    <tspan fill="#686868">@@@</tspan><tspan fill="#ff5c57">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan fill="#686868">@@@     </tspan></tspan>
+<tspan x="12" y="373">     <tspan fill="#686868">@@@@</tspan><tspan fill="#ff5c57">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan fill="#686868">@@@@      </tspan></tspan>
+<tspan x="12" y="386">        <tspan fill="#686868">@@@@@</tspan><tspan fill="#ff5c57">%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan fill="#686868">@@@@@         </tspan></tspan>
+<tspan x="12" y="399">           <tspan fill="#686868">@@@@@@@@@@</tspan><tspan fill="#ff5c57">%%%%%%%%%%%%</tspan><tspan fill="#686868">@@@@@@@@@@            </tspan></tspan>
+<tspan x="12" y="412">                  <tspan fill="#686868">@@@@@@</tspan><tspan fill="#ff5c57">%%%%%%</tspan><tspan fill="#686868">@@@@@@                   </tspan></tspan>
+<tspan x="12" y="425">                      <tspan fill="#686868">@@@@@@@@@@                       </tspan></tspan>
 </text>
-<text x="390" y="30" fill="#c9d1d9">
+<text x="390" y="30" fill="#ebece6">
 <tspan x="390" y="30">andyh0ng@github</tspan> ------------------------------------------
 <tspan x="390" y="50" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> .............................. </tspan><tspan class="value">Soongsil University</tspan>
 <tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> .................... </tspan><tspan class="value" id="age_data">25 years, 4 months, 27 days</tspan>
