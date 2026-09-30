@@ -14,7 +14,7 @@ src: local('Cascadia Code'), url(data:font/woff2;base64,d09GMgABAAAAAHMMABIAAAAB
 .cc {fill: #686868;}
 text, tspan {white-space: pre;}
 </style>
-<rect width="985px" height="470px" fill="#0b0e14" rx="15"/>
+<rect width="985px" height="470px" fill="#161b22" rx="15"/>
 
 <text font-size="11px" class="ascii">
 <tspan x="12" y="22">                         <tspan fill="#5af78e">&amp;&amp;&amp;&amp;                          </tspan></tspan>
