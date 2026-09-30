@@ -305,17 +305,27 @@ def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib
     """
     tree = etree.parse(filename)
     root = tree.getroot()
-    # 58 columns per line minus the ". Key:" prefix: every value ends on the same column
+    # Every line is 58 columns wide and every value is right-aligned to the end of its column.
+    # Two-stat lines are split into a 36 column left half, ' | ', and a 19 column right half.
     justify_format(root, 'age_data', age_data, 49)
-    justify_format(root, 'repo_data', repo_data, 50)
-    justify_format(root, 'contrib_data', contrib_data, 44)
-    justify_format(root, 'star_data', star_data, 50)
-    justify_format(root, 'commit_data', commit_data, 48)
-    justify_format(root, 'follower_data', follower_data, 46)
-    justify_format(root, 'loc_data', loc_data[2], 46)
-    justify_format(root, 'loc_add', loc_data[0], 46)
-    justify_format(root, 'loc_del', loc_data[1], 44)
+    contrib_text, repo_text = '{:,}'.format(contrib_data), '{:,}'.format(repo_data)
+    justify_format(root, 'contrib_data', contrib_text, 0)
+    justify_format(root, 'repo_data', repo_text, 36 - len('. Repos:') - len(' {Contributed: ') - len('}') - len(contrib_text))
+    justify_format(root, 'star_data', star_data, 19 - len('Stars:'))
+    justify_format(root, 'commit_data', commit_data, 36 - len('. Commits:'))
+    justify_format(root, 'follower_data', follower_data, 19 - len('Followers:'))
+    justify_format(root, 'loc_add', loc_data[0], 0)
+    justify_format(root, 'loc_del', loc_data[1], 0)
+    # ' ( ' + '++' + ', ' + '--' + ' )' is 11 columns
+    justify_format(root, 'loc_data', loc_data[2], 58 - len('. Lines of Code on GitHub:') - 11 - len(str(loc_data[0])) - len(str(loc_data[1])))
     tree.write(filename, encoding='utf-8', xml_declaration=True)
+
+
+def dot_fill(width):
+    """
+    Returns a string of exactly `width` characters made of dots, e.g. ' ..... '
+    """
+    return {0: '', 1: ' ', 2: '. '}.get(width) if width <= 2 else ' ' + '.' * (width - 2) + ' '
 
 
 def justify_format(root, element_id, new_text, length=0):
@@ -327,10 +337,7 @@ def justify_format(root, element_id, new_text, length=0):
         new_text = f"{'{:,}'.format(new_text)}"
     new_text = str(new_text)
     find_and_replace(root, element_id, new_text)
-    just_len = max(0, length - len(new_text))
-    dot_map = {0: '', 1: ' ', 2: '. '}
-    dot_string = dot_map[just_len] if just_len <= 2 else ' ' + ('.' * (just_len - 2)) + ' '
-    find_and_replace(root, f"{element_id}_dots", dot_string)
+    find_and_replace(root, f"{element_id}_dots", dot_fill(max(0, length - len(new_text))))
 
 
 def find_and_replace(root, element_id, new_text):
