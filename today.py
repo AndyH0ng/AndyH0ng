@@ -5,6 +5,7 @@ import os
 from lxml import etree
 import time
 import hashlib
+import re
 
 # Fine-grained personal access token with All Repositories access:
 # Account permissions: read:Followers, read:Starring, read:Watching
@@ -451,6 +452,10 @@ if __name__ == '__main__':
     commit_data, commit_time = perf_counter(commit_counter, 7)
 
     for index in range(len(total_loc)-1): total_loc[index] = '{:,}'.format(total_loc[index]) # format added, deleted, and total LOC
+
+    # Point the README images at a fresh URL on every build so GitHub's image proxy never serves a stale card
+    with open('README.md') as f: readme = f.read()
+    with open('README.md', 'w') as f: f.write(re.sub(r'\.svg\?v=\d+', '.svg?v=' + str(int(time.time())), readme))
 
     svg_overwrite('dark_mode.svg', age_data, commit_data, star_data, repo_data, contrib_data, follower_data, total_loc[:-1])
     svg_overwrite('light_mode.svg', age_data, commit_data, star_data, repo_data, contrib_data, follower_data, total_loc[:-1])
