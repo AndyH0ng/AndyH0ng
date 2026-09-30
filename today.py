@@ -86,9 +86,7 @@ def graph_repos_stars(count_type, owner_affiliation, cursor=None, add_loc=0, del
                     node {
                         ... on Repository {
                             nameWithOwner
-                            stargazers {
-                                totalCount
-                            }
+                            stargazerCount
                         }
                     }
                 }
@@ -107,9 +105,8 @@ def graph_repos_stars(count_type, owner_affiliation, cursor=None, add_loc=0, del
         elif count_type == 'stars':
             body = request.json()
             edges = body['data']['user']['repositories']['edges']
-            # diagnostics: how many repos came back, how many were unreadable, any API errors
-            print('stars debug: edges=%d null_nodes=%d errors=%s' % (len(edges), sum(1 for e in edges if not e['node']), [e.get('message') for e in body.get('errors', [])][:3]))
-            print('stars debug: per-repo', {e['node']['nameWithOwner']: e['node']['stargazers']['totalCount'] for e in edges if e['node']})
+            if body.get('errors') or any(not e['node'] for e in edges):
+                print('WARNING: some repositories could not be read for star counts:', [e.get('message') for e in body.get('errors', [])][:3])
             return stars_counter(edges)
 
 
@@ -301,7 +298,7 @@ def stars_counter(data):
     """
     total_stars = 0
     for node in data:
-        if node['node']: total_stars += node['node']['stargazers']['totalCount'] # skip repositories the token cannot read (null nodes)
+        if node['node']: total_stars += node['node']['stargazerCount'] # skip repositories the token cannot read (null nodes)
     return total_stars
 
 
