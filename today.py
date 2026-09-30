@@ -105,7 +105,12 @@ def graph_repos_stars(count_type, owner_affiliation, cursor=None, add_loc=0, del
         if count_type == 'repos':
             return request.json()['data']['user']['repositories']['totalCount']
         elif count_type == 'stars':
-            return stars_counter(request.json()['data']['user']['repositories']['edges'])
+            body = request.json()
+            edges = body['data']['user']['repositories']['edges']
+            # diagnostics: how many repos came back, how many were unreadable, any API errors
+            print('stars debug: edges=%d null_nodes=%d errors=%s' % (len(edges), sum(1 for e in edges if not e['node']), [e.get('message') for e in body.get('errors', [])][:3]))
+            print('stars debug: per-repo', {e['node']['nameWithOwner']: e['node']['stargazers']['totalCount'] for e in edges if e['node']})
+            return stars_counter(edges)
 
 
 def recursive_loc(owner, repo_name, data, cache_comment, addition_total=0, deletion_total=0, my_commits=0, cursor=None):
