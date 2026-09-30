@@ -303,32 +303,31 @@ def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib
     """
     tree = etree.parse(filename)
     root = tree.getroot()
-    justify_format(root, 'age_data', age_data, 44)
-    justify_format(root, 'commit_data', commit_data, 22)
-    justify_format(root, 'star_data', star_data, 14)
-    justify_format(root, 'repo_data', repo_data, 6)
-    justify_format(root, 'contrib_data', contrib_data)
-    justify_format(root, 'follower_data', follower_data, 10)
-    justify_format(root, 'loc_data', loc_data[2], 9)
-    justify_format(root, 'loc_add', loc_data[0])
-    justify_format(root, 'loc_del', loc_data[1], 7)
+    # 58 columns per line minus the ". Key:" prefix: every value ends on the same column
+    justify_format(root, 'age_data', age_data, 49)
+    justify_format(root, 'repo_data', repo_data, 50)
+    justify_format(root, 'contrib_data', contrib_data, 44)
+    justify_format(root, 'star_data', star_data, 50)
+    justify_format(root, 'commit_data', commit_data, 48)
+    justify_format(root, 'follower_data', follower_data, 46)
+    justify_format(root, 'loc_data', loc_data[2], 46)
+    justify_format(root, 'loc_add', loc_data[0], 46)
+    justify_format(root, 'loc_del', loc_data[1], 44)
     tree.write(filename, encoding='utf-8', xml_declaration=True)
 
 
 def justify_format(root, element_id, new_text, length=0):
     """
-    Updates and formats the text of the element, and modifes the amount of dots in the previous element to justify the new text on the svg
+    Updates and formats the text of the element, and modifes the amount of dots in the previous element so that
+    the dots and the value always take up exactly `length` characters (right-aligns the value on the svg)
     """
     if isinstance(new_text, int):
         new_text = f"{'{:,}'.format(new_text)}"
     new_text = str(new_text)
     find_and_replace(root, element_id, new_text)
     just_len = max(0, length - len(new_text))
-    if just_len <= 2:
-        dot_map = {0: '', 1: ' ', 2: '. '}
-        dot_string = dot_map[just_len]
-    else:
-        dot_string = ' ' + ('.' * just_len) + ' '
+    dot_map = {0: '', 1: ' ', 2: '. '}
+    dot_string = dot_map[just_len] if just_len <= 2 else ' ' + ('.' * (just_len - 2)) + ' '
     find_and_replace(root, f"{element_id}_dots", dot_string)
 
 
