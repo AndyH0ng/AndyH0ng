@@ -1,6 +1,6 @@
 <a href="https://github.com/AndyH0ng/AndyH0ng">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AndyH0ng/AndyH0ng/main/dark_mode.svg?v=1793879716">
-    <img alt="Andy Hong's GitHub Profile README" src="https://raw.githubusercontent.com/AndyH0ng/AndyH0ng/main/light_mode.svg?v=1793879716">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AndyH0ng/AndyH0ng/main/dark_mode.svg?v=1793965892">
+    <img alt="Andy Hong's GitHub Profile README" src="https://raw.githubusercontent.com/AndyH0ng/AndyH0ng/main/light_mode.svg?v=1793965892">
   </picture>
 </a>
